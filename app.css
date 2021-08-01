@@ -1,0 +1,126 @@
+
+body {
+    background-image: url("images/d9d818117996377.608063ceb9b4e\(1\).jpg");
+    color: #FEFEFE;
+}
+
+b {
+    font-weight: 200;
+    text-decoration: underline;
+    color: #FA1845;
+}
+
+span {
+    font-style: italic;
+    color: #FA1845;
+}
+
+.introduction {
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.heading h1:hover {
+    color: #9b0e2a;
+    transition: color 0.3s ease;
+}
+
+.description {
+    font-size: 1.3em;
+}
+
+.heading img {
+    width: 65px;
+    height: 80px;
+}
+
+.heading #header-image2 {
+    width: 65px;
+    height: 80px;
+    transform: scaleX(-1)
+}
+
+.question-container {
+    background-color: #9b0e2a;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-top: 30px;
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.frmBtn {
+    width: 80%;
+    font-weight: 800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border-radius: 50px;
+    border: 5px solid #FA1845;
+}
+
+.frmBtn:hover {
+    background-color:#9B0E2A;
+    color:white;
+    transition: background-color 0.3s ease;
+}
+
+.question {
+    text-align: center;
+}
+
+.endButtons {
+    font-size: 2em;
+    width: 50%;
+    font-weight: 800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
+
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.endButtons:hover {
+    background-color:#9B0E2A;
+    color:white;
+    transition: background-color 0.3s ease;
+}
+
+.score {
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+}
+
+.correct-guess {
+    background-color: chartreuse;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.incorrect-guess {
+    background-color: "red";
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    color: black;
+}
